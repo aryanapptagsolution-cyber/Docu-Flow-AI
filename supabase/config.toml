@@ -1,0 +1,7 @@
+project_id = "bekvupovkhzjkbktvnfh"
+
+[functions.process-document]
+verify_jwt = false
+
+[functions.send-reminders]
+verify_jwt = false
