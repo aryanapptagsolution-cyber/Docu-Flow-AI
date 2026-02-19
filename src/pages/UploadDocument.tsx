@@ -126,9 +126,8 @@ export default function UploadDocument() {
           </div>
 
           <div
-            className={`flex flex-col items-center justify-center rounded-xl border-2 border-dashed p-12 transition-colors cursor-pointer ${
-              dragOver ? "border-primary bg-primary/5" : "border-border hover:border-primary/50"
-            }`}
+            className={`flex flex-col items-center justify-center rounded-xl border-2 border-dashed p-12 transition-colors cursor-pointer ${dragOver ? "border-primary bg-primary/5" : "border-border hover:border-primary/50"
+              }`}
             onDragOver={(e) => { e.preventDefault(); setDragOver(true); }}
             onDragLeave={() => setDragOver(false)}
             onDrop={handleDrop}
